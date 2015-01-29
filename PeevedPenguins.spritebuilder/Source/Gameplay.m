@@ -34,10 +34,11 @@
 }
 
 // called on every touch in this scene
-- (void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
+- (void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event
+{
     CGPoint touchLocation = [touch locationInNode:_contentNode];
     
-    // start catapult dragging when a touch of the catapult arm occurs
+    // start catapult dragging when a touch inside of the catapult arm occurs
     if (CGRectContainsPoint([_catapultArm boundingBox], touchLocation))
     {
         // move the mouseJointNode to the touch position
