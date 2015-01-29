@@ -172,7 +172,7 @@ static const float MIN_SPEED = 5.f;
     // if speed is below minimum speed, assume this attempt is over
     if (ccpLength(_currentPenguin.physicsBody.velocity) < MIN_SPEED){
         [self nextAttempt];
-        CCLOG(@"Next Attempt is triggered!");
+        //CCLOG(@"Next Attempt is triggered!");
         return;
     }
     
@@ -180,7 +180,7 @@ static const float MIN_SPEED = 5.f;
     
     if (xMin < self.boundingBox.origin.x) {
         [self nextAttempt];
-        CCLOG(@"Next Attempt is triggered!");
+        //CCLOG(@"Next Attempt is triggered!");
         return;
     }
     
@@ -188,7 +188,7 @@ static const float MIN_SPEED = 5.f;
     
     if (xMax > (self.boundingBox.origin.x + self.boundingBox.size.width)) {
         [self nextAttempt];
-        CCLOG(@"Next Attempt is triggered!");
+        //CCLOG(@"Next Attempt is triggered!");
         return;
     }
     }
@@ -200,6 +200,7 @@ static const float MIN_SPEED = 5.f;
     
     CCActionMoveTo *actionMoveTo = [CCActionMoveTo actionWithDuration:1.f position:ccp(0, 0)];
     [_contentNode runAction:actionMoveTo];
+    CCLOG(@"Next Attempt is triggered!");
 }
 
 @end
