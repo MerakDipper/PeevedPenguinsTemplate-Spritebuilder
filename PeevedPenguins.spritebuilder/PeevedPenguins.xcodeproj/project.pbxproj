@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		394E03DF1A74E3B700196956 /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 394E03DE1A74E3B700196956 /* Gameplay.m */; };
+		394E03F21A7A305300196956 /* WaitingPenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 394E03F11A7A305300196956 /* WaitingPenguin.m */; };
 		39B1C8331A6BA53300658EF9 /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B1C8321A6BA53300658EF9 /* Penguin.m */; };
 		39B1C8401A6BA55200658EF9 /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B1C83F1A6BA55200658EF9 /* Seal.m */; };
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
@@ -82,6 +83,8 @@
 /* Begin PBXFileReference section */
 		394E03DD1A74E3B700196956 /* Gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gameplay.h; path = Source/Gameplay.h; sourceTree = "<group>"; };
 		394E03DE1A74E3B700196956 /* Gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gameplay.m; path = Source/Gameplay.m; sourceTree = "<group>"; };
+		394E03F01A7A305300196956 /* WaitingPenguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitingPenguin.h; sourceTree = "<group>"; };
+		394E03F11A7A305300196956 /* WaitingPenguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitingPenguin.m; sourceTree = "<group>"; };
 		39B1C8311A6BA53300658EF9 /* Penguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Penguin.h; sourceTree = "<group>"; };
 		39B1C8321A6BA53300658EF9 /* Penguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Penguin.m; sourceTree = "<group>"; };
 		39B1C83E1A6BA55200658EF9 /* Seal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seal.h; sourceTree = "<group>"; };
@@ -165,6 +168,8 @@
 				B7378993180767190076A88C /* MainScene.m */,
 				394E03DD1A74E3B700196956 /* Gameplay.h */,
 				394E03DE1A74E3B700196956 /* Gameplay.m */,
+				394E03F01A7A305300196956 /* WaitingPenguin.h */,
+				394E03F11A7A305300196956 /* WaitingPenguin.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -402,6 +407,7 @@
 			files = (
 				39B1C8401A6BA55200658EF9 /* Seal.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
+				394E03F21A7A305300196956 /* WaitingPenguin.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				39B1C8331A6BA53300658EF9 /* Penguin.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
